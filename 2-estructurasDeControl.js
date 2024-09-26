@@ -26,7 +26,7 @@ function clasificarEdad(edad) {
 // Ejercicio 3: Bucles while
 // Instrucción: Crea una función que reciba un número entero positivo y utilice un bucle `while` para imprimir todos los números desde ese número hasta 0.
 function cuentaRegresiva(numero) {
-    while(numero > 0) {
+    while(numero >= 0) {
         console.log(numero);
         numero = numero - 1;
     }
@@ -136,4 +136,4 @@ export {
     obtenerDiaSemana,
     esVocal,
     evaluarNumeros,
-};
+}
